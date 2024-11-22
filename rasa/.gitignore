@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Rasa temporary files and cache
+.rasa/
+*.db
+*.lock
+results/
+logs/
+
+# Rasa model files
+models/
+*.tar.gz
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment and dependency files
+.env
+*.env
+
+# macOS system files
+.DS_Store
+
+# VS Code workspace settings
+.vscode/
+
+# Node.js dependencies (if using frontend tools)
+node_modules/
+
+# Any personal notes or debugging files
+*.swp
+*.bak
+*.tmp
+
